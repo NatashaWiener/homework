@@ -1,4 +1,4 @@
-package homework25.human;
+package homework25.task01;
 
 public class Human {
 

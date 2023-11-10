@@ -1,24 +1,24 @@
-package homework25.pen;
+package homework25.task02;
+
 
 public class Pen {
-  int inkLevel = 1000;
-  public void write(String pen) {
-    int written = pen.length();
-    if (inkLevel >= written) {
-      inkLevel -= written;
-    }
-    }
 
+  public static final int MAX_INK = 1000;
+  public int inkAmount = MAX_INK;
 
-  public int getInkLevel() {
-    return inkLevel;
+  public void write(String str) {
+    if (inkAmount >= str.length()) {
+      inkAmount -= str.length();
+      System.out.println(str.length());
+    }
   }
 
-public void refill() {
-    inkLevel = 1000;
-}
-public void checkInk() {
-  System.out.println(inkLevel);
-}
+  public void refill() {
+    inkAmount = MAX_INK;
+  }
+
+  public void checkInk() {
+    System.out.println("INK remaining: " + inkAmount);
+  }
 
 }
