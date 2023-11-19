@@ -2,6 +2,8 @@ package homework28;
 
 public class Main {
     public static void main(String[] args) {
+
+
         double[] arr = {4, 2, 7, 1, -5, 6};
        MyArray myArray = new MyArray(arr);
 
