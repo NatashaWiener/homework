@@ -125,7 +125,7 @@ public class MyArray {
     }
 
     // переводит объект в строку чтобы можно было легко вывести в sout
-   /* public String toString() {
+    public String toString() {
         String res = "[ ";
         for (int i = 0; i < array.length; i++) {
             res += array[i];
@@ -135,5 +135,5 @@ public class MyArray {
         }
         res += " ]";
         return res;
-    }*/
+    }
 }
