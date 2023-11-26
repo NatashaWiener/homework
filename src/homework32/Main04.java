@@ -1,2 +1,3 @@
-package homework32;public class Main04 {
+package homework32;
+public class Main04 {
 }
