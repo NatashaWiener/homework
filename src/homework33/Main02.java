@@ -5,11 +5,14 @@ public class Main02 {
         char[] alphaBet = new char[26];
         for (int i = 0; i < 26; i++) {
             alphaBet[i] = (char) ('a' + i);
+            System.out.print(alphaBet[i] + " ");
         }
         return alphaBet;
     }
 
     public static void main(String[] args) {
+       englishAlphabet();
+
 
     }
 }
