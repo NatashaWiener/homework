@@ -16,17 +16,22 @@ public class Main04 {
             arr[i] = scanner.nextInt();
         }
 
+        boolean sorted = true;
 
+        for (int i = 1; i < size; i++) {
+            if (arr[i - 1] > arr[i]) {
+                sorted = false;
+                break;
+            }
 
-
-           System.out.println(" Масив отсортирован!");
-
-
-           System.out.println(" Масив не отсортирован!");
         }
-
+        if (sorted) {
+            System.out.println("Масив отсортирован!");
+        } else {
+            System.out.println("Масив не отсортирован!");
+        }
 
 
     }
 
-
+}
