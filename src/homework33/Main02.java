@@ -11,7 +11,9 @@ public class Main02 {
     }
 
     public static void main(String[] args) {
-       englishAlphabet();
+char[] result = englishAlphabet();
+        System.out.println(result);
+
 
 
     }
