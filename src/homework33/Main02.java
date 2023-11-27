@@ -12,7 +12,10 @@ public class Main02 {
 
     public static void main(String[] args) {
 char[] result = englishAlphabet();
-        System.out.println(result);
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i] + " ");
+        }
+
 
 
 
