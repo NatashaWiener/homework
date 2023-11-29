@@ -11,12 +11,10 @@ public class Main02 {
     }
 
     public static void main(String[] args) {
-char[] result = englishAlphabet();
+        char[] result = englishAlphabet();
         for (int i = 0; i < result.length; i++) {
             System.out.print(result[i] + " ");
         }
-
-
 
 
     }

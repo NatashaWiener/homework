@@ -16,14 +16,13 @@ public class Main01 {
 
         int[] arr = {1, 5, 7, -4, 8, -3, -6};
         changeSign(arr);
-        for (int i = 0; i < arr.length ; i++) {
+        for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
 
 
+    }
 
-        }
-
-        }
+}
 
 
